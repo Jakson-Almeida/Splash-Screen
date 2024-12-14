@@ -24,12 +24,12 @@ splash.title("Splash Screen")
 splash.overrideredirect(True)
 
 # Set the size and center the splash window
-splash.geometry("400x300")
+splash.geometry("700x700")
 screen_width = splash.winfo_screenwidth()
 screen_height = splash.winfo_screenheight()
-x = (screen_width - 400) // 2
-y = (screen_height - 300) // 2
-splash.geometry(f"400x300+{x}+{y}")
+x = (screen_width - 500) // 2
+y = (screen_height - 500) // 2
+splash.geometry(f"500x500+{x}+{y}")
 
 # Make the window transparent (background color with alpha)
 splash.attributes("-transparentcolor", "gray")
@@ -38,7 +38,7 @@ splash.attributes("-transparentcolor", "gray")
 splash.configure(bg="gray")
 
 # Add a logo (transparent PNG)
-logo = tk.PhotoImage(file="your_logo.png")  # Replace with your logo file path
+logo = tk.PhotoImage(file="data/start.png")  # Replace with your logo file path
 tk.Label(splash, image=logo, bg="gray").pack(pady=20)
 
 # Add a progress bar

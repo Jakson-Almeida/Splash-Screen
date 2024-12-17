@@ -13,6 +13,7 @@ def load_main_window():
     
     # Example content for the main window
     tk.Label(main_window, text="Welcome to the Main Application!", font=("Arial", 16)).pack(pady=20)
+    tk.Label(main_window, text="Essa é só uma tela de exemplo.").pack(pady=20)
     main_window.mainloop()
 
 

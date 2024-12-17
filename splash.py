@@ -39,7 +39,7 @@ splash.attributes("-transparentcolor", "gray")
 splash.configure(bg="gray")
 
 # Add a logo (transparent PNG)
-logo = tk.PhotoImage(file="data/UFJF-logo.png")  # Replace with your logo file path
+logo = tk.PhotoImage(file="data/app.png")  # Replace with your logo file path
 tk.Label(splash, image=logo, bg="gray").pack(pady=20)
 
 # Add a progress bar

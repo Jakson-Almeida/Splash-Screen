@@ -1,2 +1,2 @@
-# Splash-Screen
-Splash screen using tkinter
+# Splash Screen
+Splash screen using tkinter.

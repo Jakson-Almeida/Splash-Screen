@@ -1,2 +1,2 @@
 # Splash Screen
-Splash screen using tkinter.
+Splash screen using tkinter for Windows.
